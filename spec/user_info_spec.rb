@@ -1,4 +1,8 @@
-module URL
+require "spec_helper"
+
+require "url/user_info"
+
+class URL
   RSpec.describe UserInfo do
     let(:user_info) { UserInfo.new("user", "pass") }
 

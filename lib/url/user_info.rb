@@ -1,4 +1,4 @@
-module URL
+class URL
   class UserInfo
     attr_reader :username, :password
 
@@ -13,3 +13,4 @@ module URL
         other.password == password
     end
   end
+end
